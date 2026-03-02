@@ -16,10 +16,10 @@ if (!PUBLISHABLE_KEY) {
 createRoot(document.getElementById('root')).render(
   <ClerkProvider publishableKey={PUBLISHABLE_KEY} afterSignOutUrl='/'>
     <BrowserRouter>
-      <CliantaProvider config={{
-        projectId: import.meta.env.VITE_CLIANTA_PROJECT_ID,
-        apiEndpoint: import.meta.env.VITE_CLIANTA_API_ENDPOINT,
-      }}>
+      <CliantaProvider
+      projectId={import.meta.env.VITE_CLIANTA_PROJECT_ID}
+      apiEndpoint={import.meta.env.VITE_CLIANTA_API_ENDPOINT}
+    >
         <App />
       </CliantaProvider>
     </BrowserRouter>
