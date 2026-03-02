@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@clerk/clerk-react": "^5.33.0",
-    "@clianta/sdk": "^1.6.3",
+    "@clianta/sdk": "^1.6.4",
     "@tailwindcss/vite": "^4.1.11",
     "axios": "^1.10.0",
     "lucide-react": "^0.525.0",
